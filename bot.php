@@ -632,7 +632,8 @@ file_put_contents('./log.txt',$urlApi.$key.'/sendMessage?'.http_build_query($dat
             $inline_keyboard=[];
             foreach($bot_config->countries as $k=>$v){
                 if($bot_chanels->chanels->{'chanel_vorkers_'.$v->code}){
-                    $inline_keyboard[]= array(array("text" => "💬 ".$v->name,"url" => $bot_chanels->chanels->{'chanel_vorkers_'.$v->code}->invite_link)); 
+                   // $inline_keyboard[]= array(array("text" => "💬 ".$v->name,"url" => $bot_chanels->chanels->{'chanel_vorkers_'.$v->code}->invite_link)); 
+                         $inline_keyboard[]= array(array("text" => "💬 🇪🇺 Общий чат","url" => $bot_chanels->chanels->{'chanel_vorkers_'.$v->code}->invite_link)); 
                 }
             } 
             $inline_keyboard[]= array(array("text" => "🔙 Главное меню","callback_data" => "/start_back")); 
