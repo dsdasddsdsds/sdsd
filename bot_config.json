@@ -1,8 +1,8 @@
 [{
     "countries":{
         "pl":{
-            "name":"🇵🇱 Польша",
-            "flag":"🇵🇱",
+            "name":"🇪🇺 Польша",
+            "flag":"🇪🇺",
             "code":"pl",
             "status":true,
             "cur":"PLN",
@@ -14,23 +14,6 @@
                     "fish":"https://pl-466688324.xyz",
                     "example":"https://www.olx.pl/d/oferta/drzwi-ukryte-z-lustrem-komplet-z-oscieznica-realizacja-w-tydzien-CID628-IDBDoTG.html",
                     "check":true
-                }
-            }
-        },
-        "pt":{
-            "name":"🇵🇹 Португалия",
-            "flag":"🇵🇹",
-            "code":"pt",
-            "status":true,
-            "cur":"EUR",
-            "markets":{
-                "olx":{
-                    "name":"📬 OLX 2.0",
-                    "name_nos":"OLX 2.0",
-                    "domain":"olx.pt",
-                    "fish":"",
-                    "example":"",
-                    "check":false
                 }
             }
         }
